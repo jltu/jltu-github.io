@@ -2,60 +2,60 @@
 layout: project
 type: project
 image: images/cotton-square.png
-title: Cotton
+title: Smart Campus Energy Lab - Firmware 
 permalink: projects/cotton
 # All dates must be YYYY-MM-DD format!
-date: 2014-04-12
+date: 2018-01-01
 labels:
-  - Lisp
+  - C++
   - GitHub
-summary: A text adventure game I developed for ICS 313.
+  
+summary: Implemented new features that allow Real Time Clock(RTC) and GPS to be enabled for the meteorlogical sensor modules. 
 ---
 
 <img class="ui image" src="{{ site.baseurl }}/images/cotton-header.png">
 
-Cotton is a horror-esque text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
+The Smart Campus Energy Lab (SCEL) is one of many research laboratories within the Renewable Energy Island Sustainability (REIS) group.Our main project is the SCEL Weatherbox.
 
-To give you a flavor of the game, here is an excerpt from one run:
+The objective of this project is to design and develop low-cost, accurate, and reliable environmental sensor modules that can easily be reproduced for mass deployment on rooftops across the University of Hawaii at Manoa campus. The meteorological data collected from these modules will assist in planning future renewable energy installations as well as providing risk mitigation for electricity generation through the development of renewable resource prediction and forecasting algorithms.
+
+I implemented new features in the firmware that would allow Real Time Clock and GPS to be enable for the meteorlogical sensor modules. The firmware acts as a connection between the hardware and the dasboard. On the hardware side, RTC and GPS modules are implemented on the device, and my job is to write up code to allow packets of information that is collected from the modules to be passed to the database and then projected to the dashboard. 
+
+To give you a flavor of what is going on, here is some pseudo-code for the algorithm, 
 
 <hr>
 
 <pre>
-You open your eyes, and you are greeted by an unfamiliar ceiling.
-Startled, you get to your feet and quickly scan your surroundings. It's
-dark except for the stream of light coming from a crack on the only boarded
-window in the room. You try to peek through the crack, but you cannot see
-anything. You wonder where you are and who could have possibly brought you here.
-
-<--------------------help------------------------>
-Enter quit or one of the following commands -
-Weld light look walk pickup inventory help h ?
-<------------------------------------------------>
-
-look
-The room is a picture of decay with only a faded number identifying it as room-4. The bed you were
- lying on is stained with what looks like dried blood. Could it be your blood? No - it is not. The
- only way out of the room aside from the door to the corridor is a window that is boarded shut. It
- looks like it has been like that for decades. There is a door going west from here. You see a candle
- on the floor. You see a match on the floor.
-
-pickup candle
-- you are now carrying the candle -
-
-pickup match
-- you are now carrying the match -
-
-light match candle
-
-The candle is now lit. It illuminates everything in the room.
-
-walk west
-The corridor is lit with the candle. It is so long that you cannot see to the end. You notice that
- there are words written on the wall. There is a door going east from here. There is a way going north
- from here. There is a door going south from here.
+Initialization
+      Create and initialize board struct
+      Set-up board
+           Initialize all of the sensors
+           Read Node ID from EEPROM
+      Run a Power on Self-Test
+           Sample each sensor
+           Write sensor values to serial monitor
+           Check for bad sensor values
+           
+  Execution
+      Heartbeat Packet
+           Poll diagnostic data every three seconds for first thirty seconds
+           Apply scaling factors to diagnostic data
+           Construct heartbeat packet
+           Transmit heartbeat packet every three seconds for first thirty seconds
+           Write message to indicate successful transmission to serial monitor
+      Data Packet
+           Poll sensor and diagnostic data every thirty seconds
+           Apply scaling factors to diagnostic and sensor data
+           Construct data packet
+           Transmit data packet every thirty seconds
+           Write message to indicate successful transmission to serial monitor
+      Command Mode
+           Enter any character into the serial monitor to interrupt execution
+           Enter “P” into serial monitor to run a Power on Self-Test
+           Enter “E” to exit command mode and return to execution
 </pre>
 
 <hr>
 
-Source: <a href="https://github.com/jogarces/ics-313-text-game"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
+Source: <a href="https://github.com/scel-hawaii/control-tower"><i class="large github icon "></i>Control-tower
 
