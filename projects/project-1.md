@@ -19,7 +19,7 @@ summary: My team developed a autonmous robotic mouse that was able to successful
   <img class="ui image" src="../images/MicroMouse1.png">
   <img class="ui image" src="../images/MicroMouse2.png">
   <img class="ui image" src="../images/MicroMouse3D.png">
-  <img class="ui image" src="../images/MicroMouseSchematic.png">
+  <img class="ui image" src="../images/MicroMouseSchmematic.png">
 </div>
 
 Micromouse is an event where small robot “mice” solve a 16 x 16 maze. The maze is made up of a 16 by 16 grid of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided. There are multitude of different tracking algorithms that can perform this procedure. The goal of this world wide held event is to get to the center of the maze automously with the fastest time unaided. 
