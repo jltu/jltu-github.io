@@ -2,24 +2,28 @@
 layout: project
 type: project
 image: images/vacay-square.png
-title: Vacay
+title: Smart Campus Energy Lab - Dashboard
 permalink: projects/vacay
 # All dates must be YYYY-MM-DD format!
-date: 2015-12-15
+date: 2018-09-01
 labels:
   - Javascript
-  - Meteor
-  - MongoDB
-  - GitHub
-summary: A responsive web application for travel planning that my team developed in ICS 415.
+  - React
+  - GitHub/Git
+summary: Updated and maintained a dashboard to display data collected from a series environmental sensor nodes. 
 ---
 
 <img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
 
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
+The Smart Campus Energy Lab (SCEL) is one of many research laboratories within the Renewable Energy Island Sustainability (REIS) group.Our main project is the SCEL Weatherbox.
 
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
+The objective of this project is to design and develop low-cost, accurate, and reliable environmental sensor modules that can easily be reproduced for mass deployment on rooftops across the University of Hawaii at Manoa campus. The meteorological data collected from these modules will assist in planning future renewable energy installations as well as providing risk mitigation for electricity generation through the development of renewable resource prediction and forecasting algorithms.
 
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
+I worked on the front-end portion ofthe dashboard for the Smart Campus Energy Lab webpage. I utilized [React.Semantic-ui](https://react.semantic-ui.com) to modify the homepage and data display pages of the dashboard to display the collected data through graphs and charts. And I connected the front-end to the back-end using [Javascript] (https://javascript.com). 
+
+● Creating a dashboard written in ReactJS that will interact with the local server to livestream meteorological data
+● Updating the dashboard, utilizing CSS, HTML, and Semantic UI to create new features for improved user workflow
+● Working on the front-end of the dashboard to create a minimum viable product (MVP) for lab users
+● Creating a live graph generator to compare data from various environmental sensor modules
  
-Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
+Source: <a href="https://github.com/scel-hawaii/Dashboard_v2"><i class="large github icon"></i>theVacay/vacay</a>
