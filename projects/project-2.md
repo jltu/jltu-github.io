@@ -13,8 +13,6 @@ labels:
 summary: Updated and maintained a dashboard to display data collected from a series environmental sensor nodes. 
 ---
 
-<img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
-
 The Smart Campus Energy Lab (SCEL) is one of many research laboratories within the Renewable Energy Island Sustainability (REIS) group.Our main project is the SCEL Weatherbox.
 
 The objective of this project is to design and develop low-cost, accurate, and reliable environmental sensor modules that can easily be reproduced for mass deployment on rooftops across the University of Hawaii at Manoa campus. The meteorological data collected from these modules will assist in planning future renewable energy installations as well as providing risk mitigation for electricity generation through the development of renewable resource prediction and forecasting algorithms.
