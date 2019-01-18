@@ -10,7 +10,7 @@ labels:
   - C++
   - GitHub
   
-summary: Implemented new features that allow Real Time Clock(RTC) and GPS to be enabled for the meteorlogical sensor modules. 
+summary: Implemented new features that allow Real Time Clock (RTC) and GPS to be enabled for the meteorlogical sensor modules. 
 ---
 
 <img class="ui medium right floated rounded image" src="../images/firmware1.png">
