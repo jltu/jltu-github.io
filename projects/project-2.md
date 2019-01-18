@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/scel1.png
+image: images/dashboard1.PNG
 title: Smart Campus Energy Lab - Dashboard
 permalink: projects/vacay
 # All dates must be YYYY-MM-DD format!
@@ -12,6 +12,7 @@ labels:
   - GitHub/Git
 summary: Updated and maintained a dashboard to display data collected from a series environmental sensor nodes. 
 ---
+<img class="ui medium right floated rounded image" src="../images/dashboard2.PNG">
 
 The Smart Campus Energy Lab (SCEL) is one of many research laboratories within the Renewable Energy Island Sustainability (REIS) group.Our main project is the SCEL Weatherbox.
 
