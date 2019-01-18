@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/firmware2.png
+image: images/scel1.png
 title: Smart Campus Energy Lab - Firmware 
 permalink: projects/cotton
 # All dates must be YYYY-MM-DD format!
