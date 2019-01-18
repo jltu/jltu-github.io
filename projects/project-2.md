@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/dashboard.png
+image: images/dashboard.PNG
 title: Smart Campus Energy Lab - Dashboard
 permalink: projects/vacay
 # All dates must be YYYY-MM-DD format!
