@@ -57,24 +57,24 @@ public class MultiplyTest {
         System.out.println(result); 
     }
 } 
-<pre>
+
 >When I run this (jdk 1.8.0_144-b01 on MacOS) it outputs: 
-<pre>
+
 12089nsec/mul
 2559044166
-<pre>
+
 >When I run it with the import line uncommented: 
-<pre>
+
 4098nsec/mul
 2559044166
-<pre>
+
 >It's almost three times as fast when using the JDK version of BigInteger versus my version, even if it's using the exact same code. >I've examined the bytecode with javap, and compared compiler output when running with options: 
-<pre>
+
 -Xbatch -XX:-TieredCompilation -XX:+PrintCompilation -XX:+UnlockDiagnosticVMOptions 
 -XX:+PrintInlining -XX:CICompilerCount=1
-<pre>
->and both versions seem to generate the same code. So is hotspot using some precomputed optimisations that I can't use in my code? I >always understood that they don't. What explains this difference?
 
+>and both versions seem to generate the same code. So is hotspot using some precomputed optimisations that I can't use in my code? I >always understood that they don't. What explains this difference?
+<pre>
 
 The title thread is concise and gets straight to the point. The explanation of the question provides a good background of what the asker was doing when he encountered the problem and the solutions he attempted. The code blocks were also included to provide greater detail of what the asker currently has. This is a sign of a quality question especially when given to the right forum. The question was posted on Stack Overflow, and the question is unique and has not been asked before. The asker provides a really good outline of his problem which makes it easy to reader for potential responders.
 
