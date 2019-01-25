@@ -35,7 +35,7 @@ This is an example of an extremely poor question, where the reader has no clue w
 >Thread Title: Does Java JIT cheat when running JDK code?
 
 >I was benchmarking some code, and I could not get it to run as fast as with java.math.BigInteger, even when using the exact same algorithm. So I copied java.math.BigInteger source into my own package and tried this:
----
+<pre>
 //import java.math.BigInteger;
 
 public class MultiplyTest {
@@ -57,22 +57,22 @@ public class MultiplyTest {
         System.out.println(result); 
     }
 } 
----
+<pre>
 >When I run this (jdk 1.8.0_144-b01 on MacOS) it outputs: 
----
+<pre>
 12089nsec/mul
 2559044166
----
+<pre>
 >When I run it with the import line uncommented: 
----
+<pre>
 4098nsec/mul
 2559044166
----
+<pre>
 >It's almost three times as fast when using the JDK version of BigInteger versus my version, even if it's using the exact same code. >I've examined the bytecode with javap, and compared compiler output when running with options: 
----
+<pre>
 -Xbatch -XX:-TieredCompilation -XX:+PrintCompilation -XX:+UnlockDiagnosticVMOptions 
 -XX:+PrintInlining -XX:CICompilerCount=1
----
+<pre>
 >and both versions seem to generate the same code. So is hotspot using some precomputed optimisations that I can't use in my code? I >always understood that they don't. What explains this difference?
 
 
