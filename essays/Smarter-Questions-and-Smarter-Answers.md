@@ -22,17 +22,16 @@ Stack Overflow, also known as the saving grace for programmers world wide, is a 
 
 In the following example, we examine the components of a bad question:
 
-
-What is the best way to test a multiplayer network game in unity without build the app ? It is something like in editor unity there is two editor which one is a copied editor. So we can login in one editor and login in second editor with different user. Is there a tool like this ? 
-Thanks
+>What is the best way to test a multiplayer network game in unity without build the app ? It is something like in editor unity there is two editor which one is a copied editor. So we can login in one editor and login in second editor with different user. Is there a tool like this ? 
+>Thanks
 
 
 This is an example of an extremely poor question, where the reader has no clue what the person is even trying to ask. Within the first sentence, the reader is thrown off with vague details and unorderly wording that the reader can't offer assistance even if they wanted to. By the second sentence, the sentence begins to become incoherent, and as the reader is reading this sentence, they would have probably closed the page already as it is too much of a hassle to decipher the question. This goes to show, the importance of asking smart questions. By making sure that the question is concise, coherent and meaningful, the reader will have a better chance of helping or rather even be much more inclined to help. The question should have meaningful headers, concise and informative wording, and should describe the problem's symptoms, problematic steps, and goals. 
 
 ## Smarter Questions
 
-Thread Title: Does Java JIT cheat when running JDK code?
-I was benchmarking some code, and I could not get it to run as fast as with java.math.BigInteger, even when using the exact same algorithm. So I copied java.math.BigInteger source into my own package and tried this:
+>Thread Title: Does Java JIT cheat when running JDK code?
+>I was benchmarking some code, and I could not get it to run as fast as with java.math.BigInteger, even when using the exact same algorithm. So I copied java.math.BigInteger source into my own package and tried this:
 ```
 //import java.math.BigInteger;
 
