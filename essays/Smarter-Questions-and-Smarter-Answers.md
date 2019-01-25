@@ -33,8 +33,8 @@ This is an example of an extremely poor question, where the reader has no clue w
 ## Smarter Questions
 
 >Thread Title: Does Java JIT cheat when running JDK code?
->
->I was benchmarking some code, and I could not get it to run as fast as with java.math.BigInteger, even when using the exact same >algorithm. So I copied java.math.BigInteger source into my own package and tried this:
+
+>I was benchmarking some code, and I could not get it to run as fast as with java.math.BigInteger, even when using the exact same algorithm. So I copied java.math.BigInteger source into my own package and tried this:
 ```
 //import java.math.BigInteger;
 
@@ -75,16 +75,16 @@ public class MultiplyTest {
 ```
 >and both versions seem to generate the same code. So is hotspot using some precomputed optimisations that I can't use in my code? I >always understood that they don't. What explains this difference?
 
----
+
 The title thread is concise and gets straight to the point. The explanation of the question provides a good background of what the asker was doing when he encountered the problem and the solutions he attempted. The code blocks were also included to provide greater detail of what the asker currently has. This is a sign of a quality question especially when given to the right forum. The question was posted on Stack Overflow, and the question is unique and has not been asked before. The asker provides a really good outline of his problem which makes it easy to reader for potential responders.
 
 The conciseness and informative question that he provided was responded with a quality answer shortly after being posted shown below:
 
 
->Yes, HotSpot JVM is kind of "cheating", because it has a special version of some BigInteger methods that you won't find in Java code. >These methods are called JVM intrinsics.
+>Yes, HotSpot JVM is kind of "cheating", because it has a special version of some BigInteger methods that you won't find in Java code.These methods are called JVM intrinsics.
 
->In particular, BigInteger.multiplyToLen is instrinsic method in HotSpot. There is a special hand-coded assembly implementation in JVM >source base, but only for x86-64 architecture.
->You may disable this instrinsic with -XX:-UseMultiplyToLenIntrinsic option to force JVM to use pure Java implementation. In this case >the performance will be similar to the performance of your copied code.
+>In particular, BigInteger.multiplyToLen is instrinsic method in HotSpot. There is a special hand-coded assembly implementation in JVM source base, but only for x86-64 architecture.
+>You may disable this instrinsic with -XX:-UseMultiplyToLenIntrinsic option to force JVM to use pure Java implementation. In this case the performance will be similar to the performance of your copied code.
 >P.S. Here is a list of other HotSpot intrinsic methods.
 
 
