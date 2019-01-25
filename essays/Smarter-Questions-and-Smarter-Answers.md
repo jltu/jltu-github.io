@@ -23,8 +23,8 @@ Stack Overflow, also known as the saving grace for programmers world wide, is a 
 In the following example, we examine the components of a bad question:
 
 
->What is the best way to test a multiplayer network game in unity without build the app ? It is something like in editor unity there is >two editor which one is a copied editor. So we can login in one editor and login in second editor with different user. Is there a tool >like this ? 
->
+>What is the best way to test a multiplayer network game in unity without build the app ? It is something like in editor unity there is two editor which one is a copied editor. So we can login in one editor and login in second editor with different user. Is there a tool like this ? 
+
 >Thanks
 
 
