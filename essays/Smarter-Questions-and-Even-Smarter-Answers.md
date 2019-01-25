@@ -105,3 +105,6 @@ P.S. Here is a list of other HotSpot intrinsic methods.
 ## Conclusion
 
 As software engineers, asking smart questions is essential to learn and obtain new knowledge. Programming is a life long journey and there is so much to learn so that makes it especially important and crucial for hackers to emphasize on smart questions to get smarter answers. 
+
+Source: <a href="https://stackoverflow.com/questions/41801249/how-to-test-multiplayer-games-unity-without-build-the-app"><i class="large stackoverflow icon"></i>Dumb Question</a>
+Source: <a href="https://stackoverflow.com/questions/45912510/does-java-jit-cheat-when-running-jdk-code"><i class="large stackoverflow icon"></i>Smart Question</a>
