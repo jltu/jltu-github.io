@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Smart Questions, Smarter Answers
+title: Smart Questions,and Even Smarter Answers
 # All dates must be YYYY-MM-DD format!
 date: 2019-01-24
 labels:
