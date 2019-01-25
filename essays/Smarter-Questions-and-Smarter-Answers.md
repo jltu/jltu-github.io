@@ -32,9 +32,9 @@ This is an example of an extremely poor question, where the reader has no clue w
 
 In the next example shown below is what a smart question looks like:
 
-Thread Title: Does Java JIT cheat when running JDK code?
+>Thread Title: Does Java JIT cheat when running JDK code?
 
-I was benchmarking some code, and I could not get it to run as fast as with java.math.BigInteger, even when using the exact same algorithm. So I copied java.math.BigInteger source into my own package and tried this:
+>I was benchmarking some code, and I could not get it to run as fast as with java.math.BigInteger, even when using the exact same algorithm. So I copied java.math.BigInteger source into my own package and tried this:
 ```
 //import java.math.BigInteger;
 
