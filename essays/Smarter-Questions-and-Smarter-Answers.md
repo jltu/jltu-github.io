@@ -90,6 +90,8 @@ and both versions seem to generate the same code. So is hotspot using some preco
 
 The title thread is concise and gets straight to the point. The explanation of the question provides a good background of what the asker was doing when he encountered the problem and the solutions he attempted. The code blocks were also included to provide greater detail of what the asker currently has. This is a sign of a quality question especially when given to the right forum. The question was posted on Stack Overflow, and the question is unique and has not been asked before. The asker provides a really good outline of his problem which makes it easy to reader for potential responders.
 
+## And Even Smarter Answers
+
 The conciseness and informative question that he provided was responded with a quality answer shortly after being posted shown below:
 
 ```
