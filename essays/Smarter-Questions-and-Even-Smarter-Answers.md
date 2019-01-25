@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Smart Questions,and Even Smarter Answers
+title: Smart Questions,and even Smarter Answers
 # All dates must be YYYY-MM-DD format!
 date: 2019-01-24
 labels:
@@ -87,7 +87,8 @@ It's almost three times as fast when using the JDK version of BigInteger versus 
 ```
 
 and both versions seem to generate the same code. So is hotspot using some precomputed optimisations that I can't use in my code? I always understood that they don't. What explains this difference?
-
+ 
+ 
 The title thread is concise and gets straight to the point. The explanation of the question provides a good background of what the asker was doing when he encountered the problem and the solutions he attempted. The code blocks were also included to provide greater detail of what the asker currently has. This is a sign of a quality question especially when given to the right forum. The question was posted on Stack Overflow, and the question is unique and has not been asked before. The asker provides a really good outline of his problem which makes it easy to reader for potential responders.
 
 ## And Even Smarter Answers
@@ -106,6 +107,6 @@ P.S. Here is a list of other HotSpot intrinsic methods.
 
 As software engineers, asking smart questions is essential to learn and obtain new knowledge. Programming is a life long journey and there is so much to learn so that makes it especially important and crucial for hackers to emphasize on smart questions to get smarter answers. 
 
-Source: <a href="https://stackoverflow.com/questions/41801249/how-to-test-multiplayer-games-unity-without-build-the-app"><i class="large stackoverflow icon"></i>Dumb Question</a>
+Source: <a href="https://stackoverflow.com/questions/41801249/how-to-test-multiplayer-games-unity-without-build-the-app"><</i>Dumb Question</a>
 
-Source: <a href="https://stackoverflow.com/questions/45912510/does-java-jit-cheat-when-running-jdk-code"><i class="large stackoverflow icon"></i>Smart Question</a>
+Source: <a href="https://stackoverflow.com/questions/45912510/does-java-jit-cheat-when-running-jdk-code"></i>Smart Question</a>
