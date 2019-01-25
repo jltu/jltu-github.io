@@ -79,13 +79,13 @@ The title thread is concise and gets straight to the point. The explanation of t
 
 The conciseness and informative question that he provided was responded with a quality answer shortly after being posted shown below:
 
-``
+```
 Yes, HotSpot JVM is kind of "cheating", because it has a special version of some BigInteger methods that you won't find in Java code.These methods are called JVM intrinsics.
 
 In particular, BigInteger.multiplyToLen is instrinsic method in HotSpot. There is a special hand-coded assembly implementation in JVM source base, but only for x86-64 architecture.
 You may disable this instrinsic with -XX:-UseMultiplyToLenIntrinsic option to force JVM to use pure Java implementation. In this case the performance will be similar to the performance of your copied code.
 P.S. Here is a list of other HotSpot intrinsic methods.
-``
+```
 
 ## Conclusion
 
