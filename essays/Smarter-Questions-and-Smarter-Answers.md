@@ -10,7 +10,7 @@ labels:
   - StackOverflow
 ---
 
-<img class="ui medium left floated image" src="../images/rtfm.png">
+<img class="ui medium left floated image" src="../images/questions.jpg">
 
 ## The Importance of Smart Questions 
 
