@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Satisfcation Brought it Back
+title: Satisfaction Brought it Back
 # All dates must be YYYY-MM-DD format!
 date: 2019-01-17
 labels:
