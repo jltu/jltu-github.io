@@ -19,12 +19,12 @@ Forming useful and productive study groups have shown to help students learn mor
 
 ## Mockup Page Ideas
 
-• Home Landing Page
-• Session Info Page
-• Session Submission Page
-• Add/Edit/Delete Session
-• Login/Logout/Sign up
-• Profile Edit Page
+• Home Landing Page  
+• Session Info Page  
+• Session Submission Page  
+• Add/Edit/Delete Session  
+• Login/Logout/Sign up  
+• Profile Edit Page  
 
 # Home Landing Page
 
