@@ -63,10 +63,10 @@ Home Landing Page → Login Page → Home Landing Page → Add/Edit/Delete Sessi
 
 ## Beyond the Basics
 
-• Add star ratings for various users based on the user’s input \n
-• Add review features for students profiles \n
-• Incorporate students social media in the profile page \n
-    •This may even branch into finding new friends \n
+• Add star ratings for various users based on the user’s input  
+• Add review features for students profiles  
+• Incorporate students social media in the profile page  
+    •This may even branch into finding new friends  
 
 ## Team
 
