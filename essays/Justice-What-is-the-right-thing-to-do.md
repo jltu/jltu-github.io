@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Justice: What is the right thing to do?
+title: Justice - What is the right thing to do?
 # All dates must be YYYY-MM-DD format!
 date: 2019-04-18
 labels:
