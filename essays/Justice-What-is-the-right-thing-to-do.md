@@ -1,4 +1,4 @@
----
+--
 layout: essay
 type: essay
 title: Justice: Whats the right thing to do?
@@ -7,7 +7,7 @@ date: 2019-04-18
 labels:
   - Software Engineering
   - Ethics
----
+--
 
 <img class="ui tiny left circular floated image" src="../images/ethics.jpg">
 
