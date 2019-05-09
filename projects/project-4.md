@@ -24,10 +24,7 @@ Boujee Foodie is a website that allows individuals, particularly students and fa
 My contribution for this project included creating the landing page which allow users easy access to see what our web application offers. Within the landing page, users can see the top three restaurants along with their reviews. Another component I helped worked on is the list landing page where users can see all the restaurants that are added in our database. I created the edit pages which allow admin accounts to edit the restaurants. In addition to this, I also help create the collections and helped connect everything together on each page. 
 
 ## Learning Outcome
-In this project, I gained project experience by working as a team of 4 to build this web application.  By practicing issue
-driven project management, we were able to work independently while progressing in the project.  Some of the technical skills
-that we learned in this project was using JavaScript, Semantic UI, React, and Meteor to build the web application and used
-Galaxy for deployment.
+In this project, I was able to learn and gain some experience in working on a team on a small-to-medium scaled project. By doing so, we were able to succesfully build a web application that serves its purpose. I was able to learn and integrate everything I have learned throughout this semester. It was really interesting that we were able to implement Javascript, React, Semantic-UI, MongoDB, and Meteor all together in this project and see it working in unison. After going through this experience, I feel that I have a better understanding of Web Development and how impactful it can be. 
 
 ## Screenshots
 ### Landing Page
