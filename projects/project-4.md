@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/LandingPageIcon.jpg
-title: Ono Manoa Grindz
+title: Boujee Foodie
 permalink: projects/ono-manoa-grindz
 # All dates must be YYYY-MM-DD format!
 date: 2019-05-07
