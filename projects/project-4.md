@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/LandingPageIcon.jpg
 title: Boujee Foodie
-permalink: projects/ono-manoa-grindz
+permalink: projects/boujeefoodie
 # All dates must be YYYY-MM-DD format!
 date: 2019-05-07
 labels:
