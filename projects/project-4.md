@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/LandingPageIcon.jpg
+image: images/LandingPageIcon.png
 title: Boujee Foodie
 permalink: projects/boujeefoodie
 # All dates must be YYYY-MM-DD format!
