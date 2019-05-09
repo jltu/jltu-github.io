@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/LandingPage.jpg
+image: images/LandingPageIcon.jpg
 title: Ono Manoa Grindz
 permalink: projects/ono-manoa-grindz
 # All dates must be YYYY-MM-DD format!
